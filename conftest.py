@@ -16,8 +16,7 @@ def driver_setup(request):
     }
     # Creating the driver by passing the desired capabilities
     driver = webdriver.Remote("http://0.0.0.0:4723", desired_cap)
-    request.cls.appium_driver = driver
-    yield
+    yield driver
     print("Closing the driver")
     driver.quit()
 

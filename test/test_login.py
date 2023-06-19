@@ -11,7 +11,7 @@ class TestSignIn:
 
     ####
     # Uso driver_setup como Arrange y cleanup
-    #def test_login_user_with_issues(self, driver_setup, user, password, errormsg):
+    #def test_login_user_with_issues(self, driver, user, password, errormsg):
     #    Act
     #   Assert
     ####
