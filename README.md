@@ -30,5 +30,5 @@ a traves del framework o de forma manual con la terminal.
 
 ### Contributions
 Este es un proyeccto que acepta contribuciones, solo debes seguir los estandares del proyecto
-para mentener la esctructura del mismo.....
+para mantener la esctructura del mismo.....<br/>
 Crea un PR y el equipo lo aprobara en caso de ser aceptado.
