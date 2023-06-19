@@ -1,28 +1,34 @@
-# Swaglabs app test automation framework
+# Swaglabs app - base de framework de automatizacion de interfaz movil
 ### Author: Isabella Ojeda Nuñez
 
-This is an example of a test automation framework with tech stack :
+Este repo es un ejemplo de una base para un framework de pruebas con el siguiente stack:
 - Python
 - Pytest
 - Appium
 - Allure
 - Flake8
 
+### Comando de ejecucion
+Desde la consola, en la carpeta principal del proyecto:
 
-### How to execute it
-From the console, in the root of the project:
-
-To run the existing test cases
+Para ejecutar los casos de prueba:
 >> pytest
 
-To run lint to check the files
+Para ejecutar el analizador de codigo estático:
 >>flake8 nameOfFileToCheck.py
 
-### Appium
-This framework uses Appium, so we need to have the server installed in execution
-environment and be sure that it is running when executiing our test cases.
+Para generar reporte de Allure
+>>pytest --alluredir=<ruta a la carpeta de reportes> test.py
 
+Para ver los resultados del reporte con el servidor de Allure
+>>Allure serve ./report 
+
+### Appium
+Este framework utiliza Appium, por lo tanto necesitamos instalar Appium en la maquina 
+donde sera ejecutado y estar seguros que el servidor esta corriendo. Para ello lo podemos hacer
+a traves del framework o de forma manual con la terminal.
 
 ### Contributions
-Contributions to the library are accepted, you just need to follow the project standards.
-Create a PR and the team will review it approved it.
+Este es un proyeccto que acepta contribuciones, solo debes seguir los estandares del proyecto
+para mentener la esctructura del mismo.....
+Crea un PR y el equipo lo aprobara en caso de ser aceptado.
