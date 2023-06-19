@@ -4,7 +4,7 @@ from POM.login import LoginPage
 # Usamos fixture para iniciar el server de appium, solo se llama una vez en el archivo
 @pytest.mark.usefixtures("appium_start")
 class TestSignIn:
-
+    pass
     ####
     # Aqui van los test cases de la suite
     ####
